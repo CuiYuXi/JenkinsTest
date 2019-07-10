@@ -3,3 +3,7 @@
 ################################################################################
 
 /.vs
+/JenkinsTest/.vs/JenkinsTest/v15
+/JenkinsTest/JenkinsTest/obj/Debug/netcoreapp2.2
+/JenkinsTest/JenkinsTest/bin/Debug/netcoreapp2.2
+/JenkinsTest/JenkinsTest/obj
