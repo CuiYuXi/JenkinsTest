@@ -4,7 +4,7 @@ EXPOSE 80
 
 FROM microsoft/dotnet:2.2-sdk AS build
 WORKDIR /src
-COPY ["JenkinsTest/JenkinsTest.csproj", "JenkinsTest/"]
+COPY ["JenkinsTest.csproj", "JenkinsTest/"]
 RUN dotnet restore "JenkinsTest/JenkinsTest.csproj"
 COPY . .
 WORKDIR "/src/JenkinsTest"
